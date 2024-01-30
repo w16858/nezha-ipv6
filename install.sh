@@ -88,13 +88,13 @@ pre_check() {
     else
         if [[ -z "${CN}" ]]; then
             GITHUB_RAW_URL="raw.githubusercontent.com/naiba/nezha/master"
-            GITHUB_URL="hub.gitmirror.com/https://github.com"
+            GITHUB_URL="gb.333886.xyz/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" "
             Docker_IMG="ghcr.io\/naiba\/nezha-dashboard"
         else
             GITHUB_RAW_URL="raw.gitmirror.com/naiba/nezha/master"
-            GITHUB_URL="hub.gitmirror.com/https://github.com"
+            GITHUB_URL="gb.333886.xyz/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" -s docker --mirror Aliyun"
             Docker_IMG="registry.cn-shanghai.aliyuncs.com\/naibahq\/nezha-dashboard"
