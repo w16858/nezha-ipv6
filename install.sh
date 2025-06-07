@@ -80,21 +80,21 @@ pre_check() {
     fi
 
     if [[ -n "${CUSTOM_MIRROR}" ]]; then
-        GITHUB_RAW_URL="gb.333886.xyz/https://raw.gitmirror.com/naiba/nezha/master"
+        GITHUB_RAW_URL="gb.ww1.dpdns.org/https://raw.gitmirror.com/naiba/nezha/master"
         GITHUB_URL=$CUSTOM_MIRROR
         Get_Docker_URL="get.docker.com"
         Get_Docker_Argu=" -s docker --mirror Aliyun"
         Docker_IMG="registry.cn-shanghai.aliyuncs.com\/naibahq\/nezha-dashboard"
     else
         if [[ -z "${CN}" ]]; then
-            GITHUB_RAW_URL="gb.333886.xyz/https://raw.githubusercontent.com/naiba/nezha/master"
-            GITHUB_URL="gb.333886.xyz/https://github.com"
+            GITHUB_RAW_URL="gb.ww1.dpdns.org/https://raw.githubusercontent.com/naiba/nezha/master"
+            GITHUB_URL="gb.ww1.dpdns.org/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" "
             Docker_IMG="ghcr.io\/naiba\/nezha-dashboard"
         else
-            GITHUB_RAW_URL="gb.333886.xyz/https://raw.gitmirror.com/naiba/nezha/master"
-            GITHUB_URL="gb.333886.xyz/https://github.com"
+            GITHUB_RAW_URL="gb.ww1.dpdns.org/https://raw.gitmirror.com/naiba/nezha/master"
+            GITHUB_URL="gb.ww1.dpdns.org/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" -s docker --mirror Aliyun"
             Docker_IMG="registry.cn-shanghai.aliyuncs.com\/naibahq\/nezha-dashboard"
