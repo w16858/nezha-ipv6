@@ -80,7 +80,7 @@ pre_check() {
     fi
 
     if [[ -n "${CUSTOM_MIRROR}" ]]; then
-        GITHUB_RAW_URL="raw.gitmirror.com/naiba/nezha/master"
+        GITHUB_RAW_URL="gb.333886.xyz/https://raw.gitmirror.com/naiba/nezha/master"
         GITHUB_URL=$CUSTOM_MIRROR
         Get_Docker_URL="get.docker.com"
         Get_Docker_Argu=" -s docker --mirror Aliyun"
