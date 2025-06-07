@@ -87,13 +87,13 @@ pre_check() {
         Docker_IMG="registry.cn-shanghai.aliyuncs.com\/naibahq\/nezha-dashboard"
     else
         if [[ -z "${CN}" ]]; then
-            GITHUB_RAW_URL="raw.githubusercontent.com/naiba/nezha/master"
+            GITHUB_RAW_URL="gb.333886.xyz/https://raw.githubusercontent.com/naiba/nezha/master"
             GITHUB_URL="gb.333886.xyz/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" "
             Docker_IMG="ghcr.io\/naiba\/nezha-dashboard"
         else
-            GITHUB_RAW_URL="raw.gitmirror.com/naiba/nezha/master"
+            GITHUB_RAW_URL="gb.333886.xyz/https://raw.gitmirror.com/naiba/nezha/master"
             GITHUB_URL="gb.333886.xyz/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" -s docker --mirror Aliyun"
